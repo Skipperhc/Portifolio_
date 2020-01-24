@@ -1,0 +1,121 @@
+﻿<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase"><br />Projetos</h2>
+                <h3 class="section-subheading text-muted">Os principais são estes:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <img class="img-fluid" src="~/img/portfolio/imagemuniver.png" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Gerenciador de universidade</h4>
+                    <p class="text-muted">Sistema</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="~/img/portfolio/imgcalc.png" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Calculadora VLSM</h4>
+                    <p class="text-muted">Sistema</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 " style="text-align:center">
+        <ul class="list-inline">
+            <li class="list-inline-item mr-5" style="margin-top:50px">
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" asp-controller="Home" asp-action="Skills">Skills</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" asp-controller="Home" asp-action="Contato">Contato</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <h2 class="text-uppercase">Gerenciador de Universidade</h2>
+                            <p class="item-intro text-muted">Projeto pela faculdade</p>
+                            <img class="img-fluid d-block mx-auto" src="~/img/portfolio/imagemunivergrande.png" alt="">
+                            <p>Projeto prático proposto pela faculdade. É um Sistema de gerenciamento de faculdade, podemos adicionar alunos, professores, funcionários, além do setor ao qual cada um pertence. O que eu achei mais interessante foi o modo como salvamos os dados do programa, usamos arquivo txt para isso, se ficou curioso de uma olhada: </p>
+                            <ul class="list-inline">
+                                <li>Trabalho em grupo:</li>
+                                <li><a href="https://github.com/JuliaLouback/Gerenciador_Universidades" target="_blank">Projeto no GitHub</a></li>
+                                <li></li>
+                                <li>Feito em setembro 2019</li>
+                                <li>Nota: 10</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Fechar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <h2 class="text-uppercase">Calculadora VLSM</h2>
+                            <p class="item-intro text-muted">Projeto pela faculdade</p>
+                            <img class="img-fluid d-block mx-auto" src="~/img/portfolio/imgcalcgrande.png" alt="">
+                            <p>Este sistema foi desenvolvido para calcular o tamanho das redes, quantos hosts elas aguentam, definir qual será o ip de cada um desses hosts, encontrar o broadcast e o gateway de cada rede, encontrar a classe, máscara padrão e a máscara customizada para cara rede, dentre muitas outras funcionalidades. se ficou curioso fique a vontade para dar uma olhada:</p>
+                            <ul class="list-inline">
+                                <li><a href="https://github.com/Skipperhc/Calculadora-VLSM" target="_blank">Projeto no GitHub</a></li>
+                                <li>Feito em outubro 2019</li>
+                                <li>Nota 7,5</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Fechar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
